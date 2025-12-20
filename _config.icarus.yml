@@ -229,15 +229,15 @@ widgets:
         position: left
         type: profile
         # Author name
-        author: Your name
+        author: Xm
         # Author title
         author_title: Your title
         # Author's current location
-        location: Your location
+        location: China
         # URL or path to the avatar image
-        avatar: 
+        avatar: /img/mu.jpg
         # Whether show the rounded avatar image
-        avatar_rounded: false
+        avatar_rounded: true
         # Email address for the Gravatar
         gravatar: 
         # URL or path for the follow button
