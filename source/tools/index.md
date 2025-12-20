@@ -1,6 +1,6 @@
 ---
 title: 我的百宝箱
-date: 2023-10-27
+date: 2025-12-21
 comments: false
 ---
 
@@ -105,12 +105,20 @@ comments: false
 </div>
 
 ## HIT专区
-<div class="hit-group">
-  <!-- 卡片 4 -->
+<div class="tool-group">
+  <!-- 本科生院 -->
   <a class="tool-card" href="https://hituc.hit.edu.cn" target="_blank">
     <img class="tool-icon" src="https://upload.wikimedia.org/wikipedia/zh/thumb/4/46/Harbin_Institute_of_Technology_logo.svg/330px-Harbin_Institute_of_Technology_logo.svg.png">
     <div class="tool-info">
       <span class="tool-title">本科生院</span>
+    </div>
+  </a>
+
+  <!-- 图书馆 -->
+  <a class="tool-card" href="http://www.lib.hit.edu.cn" target="_blank">
+    <img class="tool-icon" src="/img/tools/hit-lib-logo.jpg">
+    <div class="tool-info">
+      <span class="tool-title">校图书馆</span>
     </div>
   </a>
 </div>
