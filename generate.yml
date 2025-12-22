@@ -1,0 +1,13 @@
+banner:
+  use_cover: true
+  default:
+    banner_text: Hi there!
+
+
+toc:
+  list_number: false
+creative_commons:
+  post: true
+  clipboard: true
+wordcount:
+  enable: true
