@@ -1,5 +1,12 @@
-<<<<<<< HEAD
 # logo
+
+
+
+
+
+
+
+
 
 # 左上角profile设置
 user:
@@ -190,83 +197,3 @@ cover:
 
 
 
-=======
-# ---------------------------------------------------------------
-# Async 主题个性化配置文件
-# ---------------------------------------------------------------
-
-# 站点 Logo 和 图标
-#logo: /img/logo.svg       # 如果没有svg，可以先放一张png
-#favicon: /favicon.png     # 浏览器标签页的小图标
-
-# 导航菜单
-menu:
-  首页: /
-  归档: /archives
-  分类: /categories
-  标签: /tags
-  关于: /about
-
-# 社交链接 (显示在侧边栏或页脚)
-social:
-  github: https://github.com/你的用户名
-  # weibo: https://weibo.com/xxx
-  # twitter: https://twitter.com/xxx
-  # email: mailto:youremail@xxx.com
-
-# 侧边栏个人信息
-sidebar:
-  author: Xm
-  description: "保持热爱，奔赴山海。"
-  avatar: /img/mu.jpg  # 把你的头像放在 source/img/avatar.png
-  # 侧边栏显示的组件
-  widgets:
-    - profile     # 个人信息
-    - recent_posts # 最近文章
-    - categories   # 分类
-    - tags         # 标签
-    - archive      # 归档
-
-# 首页大图 (Banner)
-banner:
-  enable: true
-  type: static        # static 或 slide (幻灯片)
-  # 找一张好看的风景图放在 source/img/banner.jpg
-  url: /img/banner.jpg 
-  title: "Xm's Official Space"
-  subtitle: "欢迎来到我的数字花园"
-
-# 页面视觉效果
-theme:
-  dark_mode: auto      # auto (随系统), light, dark
-  accent_color: '#2563eb' # 主题色 (科技蓝)
-  # 文章封面图默认图 (当文章没设置cover时显示)
-  default_cover: /img/default_cover.jpg
-
-# 打字机特效 (首页副标题)
-typing:
-  enable: true
-  list:
-    - "Stay Hungry, Stay Foolish."
-    - "Code is Poetry."
-    - "记录生活，记录成长。"
-
-# 搜索功能 (需安装 hexo-generator-searchdb)
-search:
-  enable: true
-  type: local
-
-# 页脚设置
-footer:
-  since: 2023
-  beian: 
-    enable: false
-    icp: ""
-  custom: '<span>Powered by <a href="https://hexo.io">Hexo</a> & <a href="https://github.com/MaLuns/hexo-theme-async">Async</a></span>'
-
-# 文章相关
-post:
-  toc: true           # 开启目录
-  copyright: true     # 开启版权声明
-  reward: false       # 关闭打赏 (如有需要可开启)
->>>>>>> 03275c0b3a92b484d184aafc5483e6105aeb5746
