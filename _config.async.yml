@@ -3,8 +3,8 @@
 # 左上角profile设置
 user:
   name: Xm
-  first_name: m
-  last_name: X
+  first_name: Official
+  last_name: Xm
   domain: www.xmofficial.top
   avatar: /img/mu.jpg
   describe: A website for me
@@ -14,13 +14,17 @@ sidebar:
   typedText: [ '' ]   
 
   social:
-    - icon: fab fa-github
+    - icon: icon-GitHub
       url: https://github.com/XmOfficial
       name: Github
 
-    - icon: fab fa-weixin
-      url: https://weixin.qq.com/
-      name: Wechat
+    - icon: icon-tuite
+      url: https://x.com/XmerOfficial
+      name: X
+
+    - icon: icon-bilibili
+      url: https://space.bilibili.com/225568625?spm_id_from=333.1007.0.0
+      name: bilibili
 
   # 最下方信息栏
   info: 
@@ -35,9 +39,11 @@ sidebar:
 
 # 标签页显示设置
 favicon:
-  # visibilitychange: true
+  visibilitychange: false  # 离开窗口时禁止切换标题显示
+  logo: /img/web-logo.svg
   show_text: XmOfficial
   hide_text: XmOfficial
+  webmanifest: /site.webmanifest
 
 # 大横幅配置
 banner:
@@ -69,12 +75,6 @@ top_bars:
         url: /categories/
   - title: menu.links
     url: /links/
-  - title: menu.about
-    url: /about/
-  - title: 自定义
-    url: /customize_page/
-  - title: 相册
-    url: /gallery/
 	- title: 日志
 		url: https://hexo-theme-async.imalun.com/guide/change-log
 		noswup: true
@@ -92,8 +92,11 @@ footer:
     start_time: 2025/12/20 17:00:00
   custom_text:
 
+# CDN未开发
+# cdn:
 
-# search暂时停用
+
+# search未开发
 search:
   enable: false
   type: local
@@ -141,8 +144,7 @@ cdn:
     head:
     base: [demo.js]
 
-assets:
-  third_party_provider: https://npm.elemecdn.com
+
 
 highlight:
   title: mac
@@ -191,7 +193,15 @@ cover:
 #   fixed_btn: async/fixed-btn
 #   header_search: async/empty
 
+# 插件
+assets:
+  third_party_provider: https://npm.elemecdn.com
 
+  # 阿里图标 https://www.iconfont.cn/manage/index?manage_type=myprojects&projectId=5095021
+  icons:
+    type: symbol
+    css: 
+    js: //at.alicdn.com/t/c/font_5095021_ki03p9muhh.js
 
 
 
