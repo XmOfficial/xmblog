@@ -1,13 +1,5 @@
 # logo
 
-
-
-
-
-
-
-
-
 # 左上角profile设置
 user:
   name: Xm
@@ -15,7 +7,31 @@ user:
   last_name: X
   domain: www.xmofficial.top
   avatar: /img/mu.jpg
-  describe: A website for caiji
+  describe: A website for me
+
+sidebar:
+  typedTextPrefix: Limitless Advance
+  typedText: [ '' ]   
+
+  social:
+    - icon: fab fa-github
+      url: https://github.com/XmOfficial
+      name: Github
+
+    - icon: fab fa-weixin
+      url: https://weixin.qq.com/
+      name: Wechat
+
+  # 最下方信息栏
+  info: 
+    - key: Location
+      val: China 
+    - key: Hobby
+      val: chess 
+  #   - key: 备用地址
+  #     val: <a href="https://async-docs.imalun.com/" target="_blank" rel="nofollow">查看</a>   
+  #   - key: 提交示例站点
+  #     val: <a href="https://hexo-theme-async.imalun.com/demo/" target="_blank" rel="nofollow">查看</a>
 
 # 标签页显示设置
 favicon:
@@ -23,7 +39,7 @@ favicon:
   show_text: XmOfficial
   hide_text: XmOfficial
 
-# 横幅配置
+# 大横幅配置
 banner:
   use_cover: false # Use the cover image for article details | 文章详情使用封面图
 
@@ -62,22 +78,6 @@ top_bars:
 	- title: 日志
 		url: https://hexo-theme-async.imalun.com/guide/change-log
 		noswup: true
-
-sidebar:
-  typedTextPrefix: I`m
-  typedText: [ 'Robot Developer' ]
-  info: 
-    - key: 文档地址
-      val: <a href="https://hexo-theme-async.imalun.com/" target="_blank" rel="nofollow">查看</a>  
-    - key: 备用地址
-      val: <a href="https://async-docs.imalun.com/" target="_blank" rel="nofollow">查看</a>   
-    - key: 提交示例站点
-      val: <a href="https://hexo-theme-async.imalun.com/demo/" target="_blank" rel="nofollow">查看</a>   
-
-  social:
-    - icon: fab fa-github
-      url: https://github.com/XmOfficial
-      name: Github
 
 footer:
   powered:
