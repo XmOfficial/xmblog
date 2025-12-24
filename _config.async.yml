@@ -2,8 +2,8 @@
 
 # 左上角profile设置
 user:
-  name: Xm
-  first_name: Official
+  name: Xm 
+  first_name: Space
   last_name: Xm
   domain: www.xmofficial.top
   avatar: /img/mu.jpg
@@ -48,7 +48,7 @@ favicon:
 # 大横幅配置
 banner:
   use_cover: false # Use the cover image for article details | 文章详情使用封面图
-
+  
   # 弹幕不启用
   danmu: # danmu | 弹幕
     enable: false # enable | 启用
@@ -61,6 +61,7 @@ banner:
     fit: cover # 同 CSS object-fit
     banner_title: 123<br>456
     banner_text: Hi there!
+    path: "MyWorld"
     # video_url: # 视频地址
 
 top_bars:
@@ -201,7 +202,11 @@ assets:
   icons:
     type: symbol
     css: 
-    js: //at.alicdn.com/t/c/font_5095021_ki03p9muhh.js
+    js: //at.alicdn.com/t/c/font_5095021_hacodc6eofn.js
+
+icons:
+    sun: icon-kaideng   # 替换为你 Iconfont 里太阳图标的名字
+    moon: icon-guandeng # 替换为你 Iconfont 里月亮图标的名字
 
 
 
