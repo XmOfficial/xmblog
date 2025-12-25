@@ -202,11 +202,11 @@ assets:
   icons:
     type: symbol
     css: 
-    js: //at.alicdn.com/t/c/font_5095021_hacodc6eofn.js
+    js: //at.alicdn.com/t/c/font_5095021_7y1mtofmtg3.js
 
 icons:
-    sun: icon-kaideng   # 替换为你 Iconfont 里太阳图标的名字
-    moon: icon-guandeng # 替换为你 Iconfont 里月亮图标的名字
+    sun: icon-taiyang1   # 替换为你 Iconfont 里太阳图标的名字
+    moon: icon-icon_yejianqingtian # 替换为你 Iconfont 里月亮图标的名字
 
 
 
