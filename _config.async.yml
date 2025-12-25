@@ -47,7 +47,7 @@ favicon:
 
 # 大横幅配置
 banner:
-  use_cover: false # Use the cover image for article details | 文章详情使用封面图
+  use_cover: false #文章详情使用封面图
   
   # 弹幕不启用
   danmu: # danmu | 弹幕
