@@ -61,3 +61,14 @@ ignore: null
 theme: async
 deploy:
   type: ''
+# Markdown-it 渲染配置
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  plugins:
+    - '@iktakahiro/markdown-it-katex'

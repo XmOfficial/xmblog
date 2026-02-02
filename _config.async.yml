@@ -209,6 +209,11 @@ icons:
     moon: icon-icon_yejianqingtian # 替换为你 Iconfont 里月亮图标的名字
 
 
+katex:
+  version: 0.16.28
+  global: false
+
+
 
 
 

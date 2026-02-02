@@ -1,8 +1,14 @@
 ---
 title: test
+katex: true
 keywords: testkey, keyword2
 date: 2025-12-25 11:11:42
 tags:
+  - C++
+  - 机器人
+categories:
+  - 编程
+  - 随想
 # cover: /img/mu.jpg
 banner:
   type: img
@@ -19,8 +25,10 @@ banner:
 - [x] 引言
 - [x] emoji
 - [x] 引用块
+- [x] latex
 
-- [ ] latex 失败
+
+
 - [ ] mermaid 失败
 - [ ] xxxx
 
@@ -37,7 +45,17 @@ just for test
 printf("Hello, world");
 ```
 
-$\alpha \times \beta = \epsilon + \frac{x}{2} +x_2^3$
+
+这是行内公式：$E = mc^2$
+
+这是块级公式：
+$$
+\nabla \cdot \mathbf{E} = \frac{\rho}{\varepsilon_0}
+$$
+
+$$
+\oint_{\partial \Sigma} \mathbf{B} \cdot \mathrm{d}\boldsymbol{\ell} = \mu_0 \iint_{\Sigma} \mathbf{J} \cdot \mathrm{d}\mathbf{S} + \mu_0 \varepsilon_0 \frac{\mathrm{d}}{\mathrm{d}t} \iint_{\Sigma} \mathbf{E} \cdot \mathrm{d}\mathbf{S}
+$$
 
 
 | Header 1 | Header 2 | Header 3 | Header 4 | Header 5 | Header 6 | 
