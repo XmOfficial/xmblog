@@ -59,7 +59,7 @@ banner:
     bgurl: /img/banner_bg.jpg # 背景图地址
     position: top # 同 CSS object-position
     fit: cover # 同 CSS object-fit
-    banner_title: 123<br>456
+    banner_title: 生活是解决问题的艺术
     banner_text: Hi there!
     path: "MyWorld"
     # video_url: # 视频地址
@@ -117,6 +117,9 @@ reward:
       path: 
     - name: QQ
       path: 
+
+error_img:
+  post_page: /img/404.jpg
 
 creative_commons:
   license: by-nc-sa
