@@ -65,8 +65,10 @@ banner:
     # video_url: # 视频地址
 
 top_bars:
-  - title: menu.home
+  - title: 首页
     url: /
+  - title: 文章
+    url: /blog/
   - title: menu.archives
     url: /archives/
     children:
@@ -76,6 +78,9 @@ top_bars:
         url: /categories/
   - title: menu.links
     url: /links/
+  - title: menu.tools
+    url: /tools/
+  
 	- title: 日志
 		url: https://hexo-theme-async.imalun.com/guide/change-log
 		noswup: true

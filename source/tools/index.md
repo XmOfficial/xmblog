@@ -1,5 +1,5 @@
 ---
-title: 我的百宝箱
+title: 神奇小网站
 date: 2025-12-21
 comments: false
 ---
@@ -63,9 +63,8 @@ comments: false
 
 ## 🛠️ 常用效率
 <div class="tool-group">
-  <!-- 卡片 1：飞书 -->
+
   <a class="tool-card" href="https://www.feishu.cn/" target="_blank">
-    <!-- 图标地址，可以直接用网上的图片 -->
     <img class="tool-icon" src="https://lf3-static.bytednsdoc.com/obj/eden-cn/pipieh7nupabozups/feishu_logo_2020.png">
     <div class="tool-info">
       <span class="tool-title">飞书文档</span>
@@ -73,7 +72,7 @@ comments: false
     </div>
   </a>
 
-  <!-- 卡片 2：ChatGPT -->
+
   <a class="tool-card" href="https://chat.openai.com/" target="_blank">
     <img class="tool-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg">
     <div class="tool-info">
@@ -82,7 +81,7 @@ comments: false
     </div>
   </a>
 
-   <!-- 卡片 3：复制这段代码增加新卡片 -->
+
   <a class="tool-card" href="https://www.remove.bg/zh" target="_blank">
     <img class="tool-icon" src="https://www.remove.bg/favicon.ico">
     <div class="tool-info">
@@ -92,17 +91,6 @@ comments: false
   </a>
 </div>
 
-## 🐟 摸鱼专区
-<div class="tool-group">
-  <!-- 卡片 4 -->
-  <a class="tool-card" href="https://www.bilibili.com/" target="_blank">
-    <img class="tool-icon" src="https://www.bilibili.com/favicon.ico">
-    <div class="tool-info">
-      <span class="tool-title">Bilibili</span>
-      <span class="tool-desc">干杯 ( ゜- ゜)つロ</span>
-    </div>
-  </a>
-</div>
 
 ## HIT专区
 <div class="tool-group">
@@ -119,6 +107,18 @@ comments: false
     <img class="tool-icon" src="/img/tools/hit-lib-logo.jpg">
     <div class="tool-info">
       <span class="tool-title">校图书馆</span>
+    </div>
+  </a>
+</div>
+
+## 🐟 摸鱼专区
+<div class="tool-group">
+
+  <a class="tool-card" href="https://www.bilibili.com/" target="_blank">
+    <img class="tool-icon" src="https://www.bilibili.com/favicon.ico">
+    <div class="tool-info">
+      <span class="tool-title">Bilibili</span>
+      <span class="tool-desc">干杯 ( ゜- ゜)つロ</span>
     </div>
   </a>
 </div>
