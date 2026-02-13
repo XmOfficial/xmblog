@@ -1,0 +1,35 @@
+name: xmblog Hexo Deploy
+
+on:
+  push:
+    branches:
+      - main  # 存放源码的分支名
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v3
+      with:
+        submodules: true # 如果你有 submodule 主题，这里必须开启
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22' 
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build Hexo
+      run: npx hexo generate
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        publish_branch: gh-pages  # 生成的网页会放到这个分支
