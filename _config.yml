@@ -59,8 +59,12 @@ include: null
 exclude: null
 ignore: null
 theme: async
+
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/XmOfficial/xmblog.git
+  branch: gh-pages
+
 # Markdown-it 渲染配置
 markdown:
   render:
