@@ -16,6 +16,9 @@ banner:
   banner_text: Hi my new friend!
 ---
 
+
+部署到github pages 测试
+
 - [x] 正文
 - [x] 标题（最好只到3级）
 - [x] 表格
