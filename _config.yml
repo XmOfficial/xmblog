@@ -5,7 +5,8 @@ keywords: null
 author: XmOfficial
 language: zh-CN
 timezone: ''
-url: http://example.com
+url: https://www.xmofficial.top
+root: /
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
