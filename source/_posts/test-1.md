@@ -16,7 +16,7 @@ banner:
   banner_text: Hi my new friend!
 ---
 
-
+这是一个测试文章，最新测试来自2026-3-23 11:18
 部署到github pages 测试
 
 - [x] 正文
