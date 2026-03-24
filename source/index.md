@@ -8,6 +8,13 @@ banner:
   bgurl: /img/home_bg.jpg
   banner_text: Hi my new friend!
 ---
+<div align="center">
+<h1>欢迎来到我的博客!</h1>
+</div>
 
-# 欢迎来到我的博客!
+
+<div align="center">
+<blockquote>不知何处吹芦管，一夜征人尽望乡</blockquote>
+</div>
+
 
