@@ -7,22 +7,20 @@
 <meta name="full-screen" content="yes">
 <meta name="theme-color" content="#317EFB" />
 <meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=0" name="viewport">
-<meta name="description" content="2026 年 1 月 封面图（有点吓人，怎么新年第一期就这么抽象啊） FOCUS 1.Is intermittent swimming lazy or clever? 本文以“间歇式游动到底是偷懒还是聪明策略”为切入点，借助斑马鱼启发的机器人平台，从能耗、电功率与推进效率的角度解释间歇游动可能带来的优势与权衡。核心观点是，用机器人可测、可控的动力系统去拆解“爆发—滑行”相对连续摆动在效率与任务表现">
+<meta name="description" content="我没有太看明白lambda表达式的作用，目前来看我只理解两点：  把对象的定义和使用放在一起，使代码易读。 捕获外部变量到对象内部，是一种保护变量的方式  可能我多看一些代码之后会明白lambda的作用吧  具体语法 lambda表达式组成： 1[捕获变量](参数列表)&#123;函数体&#125; lambda语句定义了一个匿名类的对象，这个类的作用域就是当前大括号。 捕获变量的方式 12345">
 <meta property="og:type" content="article">
-<meta property="og:title" content="SR 2026.1 Summary">
-<meta property="og:url" content="https://www.xmofficial.top/2026/02/03/SR-2026-1-Summary/index.html">
+<meta property="og:title" content="4. lambda表达式">
+<meta property="og:url" content="https://www.xmofficial.top/2026/03/23/4-lambda%E8%A1%A8%E8%BE%BE%E5%BC%8F/index.html">
 <meta property="og:site_name" content="XmOfficial">
-<meta property="og:description" content="2026 年 1 月 封面图（有点吓人，怎么新年第一期就这么抽象啊） FOCUS 1.Is intermittent swimming lazy or clever? 本文以“间歇式游动到底是偷懒还是聪明策略”为切入点，借助斑马鱼启发的机器人平台，从能耗、电功率与推进效率的角度解释间歇游动可能带来的优势与权衡。核心观点是，用机器人可测、可控的动力系统去拆解“爆发—滑行”相对连续摆动在效率与任务表现">
+<meta property="og:description" content="我没有太看明白lambda表达式的作用，目前来看我只理解两点：  把对象的定义和使用放在一起，使代码易读。 捕获外部变量到对象内部，是一种保护变量的方式  可能我多看一些代码之后会明白lambda的作用吧  具体语法 lambda表达式组成： 1[捕获变量](参数列表)&#123;函数体&#125; lambda语句定义了一个匿名类的对象，这个类的作用域就是当前大括号。 捕获变量的方式 12345">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2026-02-03T18:30:33.000Z">
+<meta property="article:published_time" content="2026-03-23T11:11:58.000Z">
 <meta property="article:modified_time" content="2026-05-11T13:58:44.698Z">
 <meta property="article:author" content="XmOfficial">
-<meta property="article:tag" content="Robotics">
-<meta property="article:tag" content="Science Robotics">
 <meta name="twitter:card" content="summary">
 
 
-<title >SR 2026.1 Summary</title>
+<title >4. lambda表达式</title>
 
 <!-- Favicon -->
 
@@ -245,7 +243,7 @@
     <div class="trm-banner">
     
     <!-- banner cover -->
-    <img style="object-position:top;object-fit:cover;" alt="banner" class="trm-banner-cover" src="/img/SR/banner_bg.jpg">
+    <img style="object-position:top;object-fit:cover;" alt="banner" class="trm-banner-cover" src="/img/banner.png">
     <!-- banner cover end -->
     
 
@@ -261,10 +259,10 @@
                     <!-- banner title -->
                     <div class="trm-banner-text ">
                         <div class="trm-label trm-mb-20">
-                            Hi my new friend!
+                            NEWS LETTER
                         </div>
                         <h1 class="trm-mb-30 trm-hsmb-font">
-                            SR 2026.1 Summary
+                            4. lambda表达式
                         </h1>
 
                         
@@ -386,7 +384,7 @@
             <svg class="symbol-icon trm-icon" aria-hidden="true">
     <use xlink:href="#far fa-calendar-alt"></use>
 </svg><br>
-            02/03
+            03/23
         </div>
     </div>
     <div class="col-sm-4">
@@ -394,7 +392,7 @@
             <svg class="symbol-icon trm-icon" aria-hidden="true">
     <use xlink:href="#far fa-clock"></use>
 </svg><br>
-            18:30
+            11:11
         </div>
     </div>
     <div class="col-sm-4">
@@ -408,24 +406,25 @@
 </div>
 <div class="trm-card ">
     <article id="article-container" class="trm-publication">
-    <p>2026 年 1 月</p>
-<p>封面图（有点吓人，怎么新年第一期就这么抽象啊）</p>
-<h1>FOCUS</h1>
-<h2 id="1-Is-intermittent-swimming-lazy-or-clever"><a target="_blank" rel="noopener" href="http://1.Is">1.Is</a> intermittent swimming lazy or clever?</h2>
-<p>本文以“间歇式游动到底是偷懒还是聪明策略”为切入点，借助斑马鱼启发的机器人平台，从能耗、电功率与推进效率的角度解释间歇游动可能带来的优势与权衡。核心观点是，用机器人可测、可控的动力系统去拆解“爆发—滑行”相对连续摆动在效率与任务表现上的差异，从而为理解真实鱼类与仿生水下机器人的运动策略提供机制层面的依据。</p>
-<h2 id="2-Within-arm’s-reach-A-path-forward-for-robot-dexterity">2.Within arm’s reach: A path forward for robot dexterity</h2>
-<p>本文围绕“机器人灵巧手”如何跨越从演示到真实环境的落差展开，强调人类在视觉与触觉的融合上具有天然优势，并指出利用人类数据进行视触觉预训练，可以显著提升在仿真中训练出的操作策略的稳健性与可迁移性。文章更像路线图和观点综述，聚焦数据、感知表征与训练范式如何共同推动可泛化的灵巧操作，而不仅是堆叠更复杂的硬件。</p>
-<h1>Research Article</h1>
-<h2 id="1-FOCUS-1-Energy-efficiency-and-neural-control-of-continuous-versus-intermittent-swimming-in-a-fishlike-robot">1.(FOCUS 1) Energy efficiency and neural control of continuous versus intermittent swimming in a fishlike robot</h2>
-<p>本文以鱼形机器人为实验载体，对比“连续游动”与“间歇游动”的能量效率与控制策略差异，并将神经控制、生物启发控制思路引入机器人游动的生成与调参；文章从仿生机器人作为“可重复、可测量的生物学工具”的角度出发，围绕间歇式运动中主动推进与被动滑行的组合，讨论其在能耗、姿态/轨迹可控性以及可能的生物学解释上的取舍，为水下仿生机器人设计与动物运动机理研究提供量化对照。</p>
-<h2 id="2-FOCUS-2-Visual-tactile-pretraining-and-online-multitask-learning-for-humanlike-manipulation-dexterity">2.(FOCUS 2) Visual-tactile pretraining and online multitask learning for humanlike manipulation dexterity</h2>
-<p>本文聚焦多指灵巧操作的核心瓶颈：精细手指协同难、对任务变化敏感、真实机器人数据采集成本高；作者提出结合“视觉-触觉预训练”与“在线多任务学习”的框架，利用更通用的感知表征与跨任务共享能力来提升策略学习效率与泛化性，并在操作过程中通过在线学习适应不同任务/目标，旨在更接近人类式的灵巧与流畅操控。</p>
-<h2 id="3-COVER-Learning-realistic-lip-motions-for-humanoid-face-robots">3.(COVER) Learning realistic lip motions for humanoid face robots</h2>
-<p>本文关注人形机器人面部中“唇部运动”的关键性：在人机对话里，唇形与语音同步以及细节真实感会显著影响理解与信任.作者提出一种学习驱动的唇部运动生成、控制方法，使机器人能够更逼真地生成与语音对应的口型变化，并面向实时交互场景优化稳定性与自然度，从而提升类人面部机器人的沟通表现与社会可接受度。</p>
-<h2 id="4-Autonomous-robotic-intraocular-surgery-for-targeted-retinal-injections">4. Autonomous robotic intraocular surgery for targeted retinal injections</h2>
-<p>本文面向眼内手术这一高精度、强约束场景，指出其主要难点在于视野受限、组织与器械的深度感知困难、操作容错极低；作者提出自主/半自主的机器人眼内操作方案，围绕“目标视网膜注射”任务，在环境感知、深度估计与运动控制（以及由此带来的精度与安全边界）上做系统化设计，目标是提升注射定位的可重复性与稳定性，并为更高等级的手术自动化奠定基础。</p>
-<h2 id="5-Architectural-swarms-for-responsive-facades-and-creative-expression">5. Architectural swarms for responsive façades and creative expression</h2>
-<p>本文把群体机器人引入建筑立面与创意表达场景，借鉴蜂巢、蚁桥等“活体结构”通过自组织持续适应环境的机制，提出由大量个体代理协同形成可变形、可响应的立面系统；研究重点在于群体规则、结构/外观变化与环境/使用者需求之间的映射关系，展示“动态、可重构、具表现力”的建筑外表皮如何通过群体智能实现，而不仅是传统静态构件的被动调节。</p>
+    <p>我没有太看明白lambda表达式的作用，目前来看我只理解两点：</p>
+<ol>
+<li>把对象的定义和使用放在一起，使代码易读。</li>
+<li>捕获外部变量到对象内部，是一种保护变量的方式</li>
+</ol>
+<p>可能我多看一些代码之后会明白lambda的作用吧</p>
+<hr>
+<h2 id="具体语法">具体语法</h2>
+<p>lambda表达式组成：</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[捕获变量](参数列表)&#123;函数体&#125;</span><br></pre></td></tr></table></figure>
+<p>lambda语句定义了一个<strong>匿名类</strong>的对象，这个类的作用域就是当前大括号。</p>
+<h3 id="捕获变量的方式">捕获变量的方式</h3>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">```[]```纯空，不捕获变量</span><br><span class="line">```[=]``` 拷贝外部变量。拷贝到函数体之后，如果对变量值进行修改，不改变原变量值。</span><br><span class="line">```[&amp;]``` 引用外部变量。函数体里对变量值的修改也会改变原变量值，毕竟是把变量地址传到lambda里了。</span><br><span class="line"></span><br><span class="line">```C++</span><br><span class="line">class Test</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">public:</span><br><span class="line"></span><br><span class="line">void capture_test()</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">// 无捕获,失败</span><br><span class="line"></span><br><span class="line">// auto x1 = []()&#123;return ex+1;&#125;;</span><br><span class="line"></span><br><span class="line">// [=]捕获外部变量</span><br><span class="line"></span><br><span class="line">auto x2 = [=]()&#123;return ex+2;&#125;;</span><br><span class="line"></span><br><span class="line">// [&amp;]捕获外部变量的引用</span><br><span class="line"></span><br><span class="line">auto x3 = [&amp;]()&#123;return ex+3;&#125;;</span><br><span class="line"></span><br><span class="line">// [this]获得当前所在对象的指针，这里就是获得Test对象的指针</span><br><span class="line"></span><br><span class="line">auto x4 = [this]()&#123;return ex+4;&#125;;</span><br><span class="line"></span><br><span class="line">std::cout &lt;&lt; &quot;x2: &quot; &lt;&lt; x2() &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">std::cout &lt;&lt; &quot;x3: &quot; &lt;&lt; x3() &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">std::cout &lt;&lt; &quot;x4: &quot; &lt;&lt; x4() &lt;&lt; std::endl;</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int ex = 42;</span><br><span class="line"></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h3 id="改变lambda内变量">改变lambda内变量</h3>
+<p>加上mutable即可</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[]()mutable&#123;&#125;</span><br></pre></td></tr></table></figure>
+<p>举例说明</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> x5 = <span class="number">42</span>;</span><br><span class="line"><span class="keyword">auto</span> f = [x5]() <span class="keyword">mutable</span> &#123; <span class="keyword">return</span> ++x5; &#125;;</span><br></pre></td></tr></table></figure>
+<p>mutable的作用是允许lambda在函数体内改变变量值，至于被捕获的变量值在lambda外是否被修改，取决于上面提到的<code>[]</code>捕获方式。</p>
 
 </article>
     
@@ -438,7 +437,7 @@
     </li>
     <li class="trm-post-copyright-link">
         <strong>本文链接：</strong>
-        <a id="original-link" href="https://www.xmofficial.top/2026/02/03/SR-2026-1-Summary/" title="SR 2026.1 Summary">https://www.xmofficial.top/2026/02/03/SR-2026-1-Summary/</a>
+        <a id="original-link" href="https://www.xmofficial.top/2026/03/23/4-lambda表达式/" title="4. lambda表达式">https://www.xmofficial.top/2026/03/23/4-lambda表达式/</a>
     </li>
     <li class="trm-post-copyright-license">
         <strong>版权声明：</strong>
@@ -461,16 +460,16 @@
     <div class="trm-older-publications-card trm-scroll-animation trm-active-el">
         <div class="trm-older-publication">
             
-            <a class="trm-op-top trm-anima-link" href="/2026/03/23/%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%85%A5%E9%97%A8/">
+            <a class="trm-op-top trm-anima-link" href="/2026/03/23/2-NULL%E4%B8%8Enullptr/">
                 <span class="trm-op-cover">
                     <img alt="cover" class="no-fancybox" src="/img/block.jpg">
                 </span>
-                <h6 class="trm-op-title">时间空间复杂度入门</h6>
+                <h6 class="trm-op-title">2. NULL与nullptr</h6>
             </a>
             <div class="trm-divider trm-mb-15 trm-mt-20"></div>
             <ul class="trm-card-data trm-label">
                 <li>26/03/23</li>
-                <li>11:02</li>
+                <li>11:11</li>
                 <li>未分类</li>
             </ul>
         </div>
@@ -482,17 +481,17 @@
     <div class="trm-older-publications-card trm-scroll-animation trm-active-el">
         <div class="trm-older-publication">
             
-            <a class="trm-op-top trm-anima-link" href="/2026/02/01/%E4%B8%BA%E4%BB%80%E4%B9%88%E5%86%99%E5%8D%9A%E5%AE%A2/">
+            <a class="trm-op-top trm-anima-link" href="/2026/03/23/1-%E5%AD%97%E9%9D%A2%E9%87%8F/">
                 <span class="trm-op-cover">
                     <img alt="cover" class="no-fancybox" src="/img/block.jpg">
                 </span>
-                <h6 class="trm-op-title">为什么写博客</h6>
+                <h6 class="trm-op-title">1. 字面量</h6>
             </a>
             <div class="trm-divider trm-mb-15 trm-mt-20"></div>
             <ul class="trm-card-data trm-label">
-                <li>26/02/01</li>
-                <li>11:11</li>
-                <li>随想</li>
+                <li>26/03/23</li>
+                <li>11:06</li>
+                <li>未分类</li>
             </ul>
         </div>
     </div>
@@ -558,7 +557,7 @@
 				</span>
       </div>
       <div class="trm-post-toc-content">
-        <ol class="trm-toc"><li class="trm-toc-item trm-toc-level-1" title="FOCUS"><a class="trm-toc-link"><span class="trm-toc-text">FOCUS</span></a><ol class="trm-toc-child"><li class="trm-toc-item trm-toc-level-2" title="1.Is intermittent swimming lazy or clever?"><a rel="nofollow" class="trm-toc-link" href="#1-Is-intermittent-swimming-lazy-or-clever"><span class="trm-toc-text">1.Is intermittent swimming lazy or clever?</span></a></li><li class="trm-toc-item trm-toc-level-2" title="2.Within arm’s reach: A path forward for robot dexterity"><a rel="nofollow" class="trm-toc-link" href="#2-Within-arm’s-reach-A-path-forward-for-robot-dexterity"><span class="trm-toc-text">2.Within arm’s reach: A path forward for robot dexterity</span></a></li></ol></li><li class="trm-toc-item trm-toc-level-1" title="Research Article"><a class="trm-toc-link"><span class="trm-toc-text">Research Article</span></a><ol class="trm-toc-child"><li class="trm-toc-item trm-toc-level-2" title="1.(FOCUS 1) Energy efficiency and neural control of continuous versus intermittent swimming in a fishlike robot"><a rel="nofollow" class="trm-toc-link" href="#1-FOCUS-1-Energy-efficiency-and-neural-control-of-continuous-versus-intermittent-swimming-in-a-fishlike-robot"><span class="trm-toc-text">1.(FOCUS 1) Energy efficiency and neural control of continuous versus intermittent swimming in a fishlike robot</span></a></li><li class="trm-toc-item trm-toc-level-2" title="2.(FOCUS 2) Visual-tactile pretraining and online multitask learning for humanlike manipulation dexterity"><a rel="nofollow" class="trm-toc-link" href="#2-FOCUS-2-Visual-tactile-pretraining-and-online-multitask-learning-for-humanlike-manipulation-dexterity"><span class="trm-toc-text">2.(FOCUS 2) Visual-tactile pretraining and online multitask learning for humanlike manipulation dexterity</span></a></li><li class="trm-toc-item trm-toc-level-2" title="3.(COVER) Learning realistic lip motions for humanoid face robots"><a rel="nofollow" class="trm-toc-link" href="#3-COVER-Learning-realistic-lip-motions-for-humanoid-face-robots"><span class="trm-toc-text">3.(COVER) Learning realistic lip motions for humanoid face robots</span></a></li><li class="trm-toc-item trm-toc-level-2" title="4. Autonomous robotic intraocular surgery for targeted retinal injections"><a rel="nofollow" class="trm-toc-link" href="#4-Autonomous-robotic-intraocular-surgery-for-targeted-retinal-injections"><span class="trm-toc-text">4. Autonomous robotic intraocular surgery for targeted retinal injections</span></a></li><li class="trm-toc-item trm-toc-level-2" title="5. Architectural swarms for responsive façades and creative expression"><a rel="nofollow" class="trm-toc-link" href="#5-Architectural-swarms-for-responsive-facades-and-creative-expression"><span class="trm-toc-text">5. Architectural swarms for responsive façades and creative expression</span></a></li></ol></li></ol>
+        <ol class="trm-toc"><li class="trm-toc-item trm-toc-level-2" title="具体语法"><a rel="nofollow" class="trm-toc-link" href="#具体语法"><span class="trm-toc-text">具体语法</span></a><ol class="trm-toc-child"><li class="trm-toc-item trm-toc-level-3" title="捕获变量的方式"><a rel="nofollow" class="trm-toc-link" href="#捕获变量的方式"><span class="trm-toc-text">捕获变量的方式</span></a></li><li class="trm-toc-item trm-toc-level-3" title="改变lambda内变量"><a rel="nofollow" class="trm-toc-link" href="#改变lambda内变量"><span class="trm-toc-text">改变lambda内变量</span></a></li></ol></li></ol>
       </div>
     </div>
 
