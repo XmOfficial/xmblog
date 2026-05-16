@@ -63,17 +63,47 @@ enum class 枚举名 [: 底层类型] { 枚举值1 [= 初始值], 枚举值2, ..
 
 比如：
 ```C++
-enum class Status : uint8_t { OK = 0, Error = 1, Timeout = 2 };
+enum class Status : int { OK = 0, Error = 1, Timeout = 2 };
 ```
 
 ```[]``` 代表可选，这部分加不加都行。底层类型默认int，**初始值默认从0开始递增1**
 
-也就是说，下面的写法也是对的：
+也就是说，下面的写法和上面效果一样：
 ```C++
 enum class Status :  { OK, Error, Timeout };
 ```
 
-和上面的写法区别就是类型为int
+使用场景：
+
+```C++
+enum class Status : { OK, Error, Timeout };
+
+void status_check(Status statuscode) {
+
+switch (statuscode) {
+case Status::OK:
+printf("OK\n");
+break;
+
+case Status::Error:
+printf("ERROR\n");
+break;
+
+case Status::Timeout:
+printf("TIMEOUT\n");
+break;
+
+}
+
+}
+```
+
+使用enum之后，```Status```就像一个类，```status_check```接受的参数规定为必须是```Status```类。如果其他变量被错传进来，编译期就会报错。
+
+注意使用枚举值的时候，必须带上```枚举名::```，就像命名空间一样
+
+
+
 
 
 
